@@ -1,0 +1,47 @@
+# Gradle
+.gradle/
+build/
+**/build/
+!gradle/wrapper/gradle-wrapper.jar
+
+# Local SDK / secrets (never commit)
+local.properties
+.env
+*.keystore
+*.jks
+*.p12
+google-services.json
+secrets.properties
+
+# Android Studio / IDE
+.idea/
+*.iml
+.navigation/
+captures/
+.externalNativeBuild/
+.cxx/
+*.hprof
+.DS_Store
+*.apk
+*.ap_
+*.aab
+output.json
+
+# Kotlin
+.kotlin/
+
+# OS
+Thumbs.db
+Desktop.ini
+
+# Logs
+*.log
+
+# Keystore backups
+*.key
+*.pem
+credentials.json
+client_secret*.json
+
+# Local lab scratch (Phase 0–2 exercises)
+scratch/

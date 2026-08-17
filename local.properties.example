@@ -1,0 +1,8 @@
+## Copy to local.properties (gitignored). Never commit secrets.
+sdk.dir=C\:\\Users\\YOU\\AppData\\Local\\Android\\Sdk
+
+# YouTube Data API v3 key (GCP → APIs & Services → Credentials)
+YOUTUBE_API_KEY=
+
+# OAuth 2.0 Web client ID (used by Credential Manager / Google Sign-In)
+GOOGLE_WEB_CLIENT_ID=

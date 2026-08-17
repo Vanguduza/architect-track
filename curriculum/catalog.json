@@ -1,0 +1,689 @@
+{
+  "version": 1,
+  "title": "Architect Track",
+  "subtitle": "From vibe coding to AI-native system architecture",
+  "playlistName": "Architect Track",
+  "phases": [
+    {
+      "id": "phase-0",
+      "index": 0,
+      "title": "Unlearn vibe coding",
+      "summary": "Why 'type a wish → accept the diff' fails at scale, what an agent harness actually is, and when to stop the model.",
+      "lessons": [
+        {
+          "id": "p0-why-vibe-fails",
+          "title": "Why vibe coding fails at scale",
+          "estimatedMinutes": 40,
+          "officialDocUrl": "https://cursor.com/learn",
+          "guidePath": "phase-0/01-why-vibe-coding-fails.md",
+          "labPath": "phase-0/01-lab.md",
+          "videos": [
+            {
+              "youtubeId": "yjK7zypCXs4",
+              "title": "Cursor 101",
+              "source": "official"
+            },
+            {
+              "youtubeId": "3289vhOUdKA",
+              "title": "Cursor AI Tutorial for Beginners",
+              "source": "community"
+            }
+          ]
+        },
+        {
+          "id": "p0-agent-harness",
+          "title": "The agent harness",
+          "estimatedMinutes": 45,
+          "officialDocUrl": "https://code.claude.com/docs/en/features-overview",
+          "guidePath": "phase-0/02-the-agent-harness.md",
+          "labPath": "phase-0/02-lab.md",
+          "videos": [
+            {
+              "youtubeId": "yjK7zypCXs4",
+              "title": "Cursor 101",
+              "source": "official"
+            },
+            {
+              "youtubeId": "TAKDIvvUdc4",
+              "title": "Complete Claude Code Course In 2 Hours For Developers",
+              "source": "community"
+            }
+          ]
+        },
+        {
+          "id": "p0-when-to-stop",
+          "title": "When to stop the agent",
+          "estimatedMinutes": 35,
+          "officialDocUrl": "https://cursor.com/docs",
+          "guidePath": "phase-0/03-when-to-stop-the-agent.md",
+          "labPath": "phase-0/03-lab.md",
+          "videos": [
+            {
+              "youtubeId": "5zR1ZE5aqho",
+              "title": "Cursor Crash Course & AI Coding For Beginners",
+              "source": "community"
+            }
+          ]
+        },
+        {
+          "id": "p0-i-will-not",
+          "title": "Write your I will not list",
+          "estimatedMinutes": 30,
+          "officialDocUrl": "https://cursor.com/learn",
+          "guidePath": "phase-0/04-i-will-not-list.md",
+          "labPath": "phase-0/04-lab.md",
+          "videos": [
+            {
+              "youtubeId": "Z56Jmr9Z34Q",
+              "title": "MIT Missing Semester — Course Overview + The Shell (2020)",
+              "source": "official"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "phase-1",
+      "index": 1,
+      "title": "Agentic IDE fluency",
+      "summary": "Cursor Learn plus Claude Code: context, tools, modes, search, customization, and git as the undo log.",
+      "lessons": [
+        {
+          "id": "p1-cursor-context",
+          "title": "Context in Cursor",
+          "estimatedMinutes": 45,
+          "officialDocUrl": "https://cursor.com/learn",
+          "guidePath": "phase-1/01-context-in-cursor.md",
+          "labPath": "phase-1/01-lab.md",
+          "videos": [
+            {
+              "youtubeId": "yjK7zypCXs4",
+              "title": "Cursor 101",
+              "source": "official"
+            }
+          ]
+        },
+        {
+          "id": "p1-tool-calling",
+          "title": "Tool calling",
+          "estimatedMinutes": 40,
+          "officialDocUrl": "https://cursor.com/docs",
+          "guidePath": "phase-1/02-tool-calling.md",
+          "labPath": "phase-1/02-lab.md",
+          "videos": [
+            {
+              "youtubeId": "yjK7zypCXs4",
+              "title": "Cursor 101",
+              "source": "official"
+            },
+            {
+              "youtubeId": "3289vhOUdKA",
+              "title": "Cursor AI Tutorial for Beginners",
+              "source": "community"
+            }
+          ]
+        },
+        {
+          "id": "p1-working-with-agents",
+          "title": "Working with agents",
+          "estimatedMinutes": 50,
+          "officialDocUrl": "https://cursor.com/docs/agent/overview",
+          "guidePath": "phase-1/03-working-with-agents.md",
+          "labPath": "phase-1/03-lab.md",
+          "videos": [
+            {
+              "youtubeId": "yjK7zypCXs4",
+              "title": "Cursor 101",
+              "source": "official"
+            },
+            {
+              "youtubeId": "5zR1ZE5aqho",
+              "title": "Cursor Crash Course & AI Coding For Beginners",
+              "source": "community"
+            }
+          ]
+        },
+        {
+          "id": "p1-codebase-search",
+          "title": "Codebase search",
+          "estimatedMinutes": 35,
+          "officialDocUrl": "https://cursor.com/docs",
+          "guidePath": "phase-1/04-codebase-search.md",
+          "labPath": "phase-1/04-lab.md",
+          "videos": [
+            {
+              "youtubeId": "3289vhOUdKA",
+              "title": "Cursor AI Tutorial for Beginners",
+              "source": "community"
+            }
+          ]
+        },
+        {
+          "id": "p1-customizing-agents",
+          "title": "Customizing agents",
+          "estimatedMinutes": 45,
+          "officialDocUrl": "https://cursor.com/docs/context/rules",
+          "guidePath": "phase-1/05-customizing-agents.md",
+          "labPath": "phase-1/05-lab.md",
+          "videos": [
+            {
+              "youtubeId": "yjK7zypCXs4",
+              "title": "Cursor 101",
+              "source": "official"
+            }
+          ]
+        },
+        {
+          "id": "p1-creating-features",
+          "title": "Creating features with agents",
+          "estimatedMinutes": 50,
+          "officialDocUrl": "https://cursor.com/learn",
+          "guidePath": "phase-1/06-creating-features.md",
+          "labPath": "phase-1/06-lab.md",
+          "videos": [
+            {
+              "youtubeId": "5zR1ZE5aqho",
+              "title": "Cursor Crash Course & AI Coding For Beginners",
+              "source": "community"
+            }
+          ]
+        },
+        {
+          "id": "p1-claude-code",
+          "title": "Claude Code in Cursor",
+          "estimatedMinutes": 55,
+          "officialDocUrl": "https://code.claude.com/docs/en/ide-integrations",
+          "guidePath": "phase-1/07-claude-code.md",
+          "labPath": "phase-1/07-lab.md",
+          "videos": [
+            {
+              "youtubeId": "TAKDIvvUdc4",
+              "title": "Complete Claude Code Course In 2 Hours For Developers",
+              "source": "community"
+            }
+          ]
+        },
+        {
+          "id": "p1-git-undo-subagents",
+          "title": "Git as the undo log, plus subagents",
+          "estimatedMinutes": 50,
+          "officialDocUrl": "https://missing.csail.mit.edu/2020/version-control/",
+          "guidePath": "phase-1/08-git-undo-subagents.md",
+          "labPath": "phase-1/08-lab.md",
+          "videos": [
+            {
+              "youtubeId": "2sjqTHE0zok",
+              "title": "MIT Missing Semester — Version Control (Git) (2020)",
+              "source": "official"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "phase-2",
+      "index": 2,
+      "title": "Aggressive context",
+      "summary": "Rules, skills, MCP, hooks, AGENTS.md as source of record, and how to keep the window useful.",
+      "lessons": [
+        {
+          "id": "p2-rules-skills-mcp-hooks",
+          "title": "Rules vs skills vs MCP vs hooks",
+          "estimatedMinutes": 50,
+          "officialDocUrl": "https://cursor.com/docs/context/rules",
+          "guidePath": "phase-2/01-rules-skills-mcp-hooks.md",
+          "labPath": "phase-2/01-lab.md",
+          "videos": [
+            {
+              "youtubeId": "yjK7zypCXs4",
+              "title": "Cursor 101",
+              "source": "official"
+            },
+            {
+              "youtubeId": "TAKDIvvUdc4",
+              "title": "Complete Claude Code Course In 2 Hours For Developers",
+              "source": "community"
+            }
+          ]
+        },
+        {
+          "id": "p2-agents-md",
+          "title": "AGENTS.md as source of record",
+          "estimatedMinutes": 40,
+          "officialDocUrl": "https://cursor.com/docs",
+          "guidePath": "phase-2/02-agents-md.md",
+          "labPath": "phase-2/02-lab.md",
+          "videos": [
+            {
+              "youtubeId": "5zR1ZE5aqho",
+              "title": "Cursor Crash Course & AI Coding For Beginners",
+              "source": "community"
+            }
+          ]
+        },
+        {
+          "id": "p2-dynamic-context",
+          "title": "Dynamic context and skills loading",
+          "estimatedMinutes": 40,
+          "officialDocUrl": "https://www.anthropic.com/engineering/equipping-agents-for-the-real-world-with-agent-skills",
+          "guidePath": "phase-2/03-dynamic-context.md",
+          "labPath": "phase-2/03-lab.md",
+          "videos": [
+            {
+              "youtubeId": "TAKDIvvUdc4",
+              "title": "Complete Claude Code Course In 2 Hours For Developers",
+              "source": "community"
+            }
+          ]
+        },
+        {
+          "id": "p2-compress-vs-chat",
+          "title": "Compress vs new chat vs subagent",
+          "estimatedMinutes": 35,
+          "officialDocUrl": "https://cursor.com/docs",
+          "guidePath": "phase-2/04-compress-vs-chat.md",
+          "labPath": "phase-2/04-lab.md",
+          "videos": [
+            {
+              "youtubeId": "3289vhOUdKA",
+              "title": "Cursor AI Tutorial for Beginners",
+              "source": "community"
+            }
+          ]
+        },
+        {
+          "id": "p2-mcp-few-servers",
+          "title": "MCP: few high-value servers",
+          "estimatedMinutes": 45,
+          "officialDocUrl": "https://cursor.com/docs/context/mcp",
+          "guidePath": "phase-2/05-mcp-few-servers.md",
+          "labPath": "phase-2/05-lab.md",
+          "videos": [
+            {
+              "youtubeId": "yjK7zypCXs4",
+              "title": "Cursor 101",
+              "source": "official"
+            },
+            {
+              "youtubeId": "kgII-YWo3Zw",
+              "title": "MIT Missing Semester — Shell Tools and Scripting (2020)",
+              "source": "official"
+            }
+          ]
+        },
+        {
+          "id": "p2-lab-this-repo",
+          "title": "Lab: write rules and skills for this repo",
+          "estimatedMinutes": 60,
+          "officialDocUrl": "https://cursor.com/docs/context/rules",
+          "guidePath": "phase-2/06-lab-this-repo.md",
+          "labPath": "phase-2/06-lab.md",
+          "videos": [
+            {
+              "youtubeId": "a6Q8Na575qc",
+              "title": "MIT Missing Semester — Editors (Vim) (2020)",
+              "source": "official"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "phase-3",
+      "index": 3,
+      "title": "Full-stack craft",
+      "summary": "HTTP, REST, auth, data modeling, testing, and CI. Follow Full Stack Open and The Odin Project as external courses — this app holds checkpoints, not their lesson text.",
+      "lessons": [
+        {
+          "id": "p3-http-rest",
+          "title": "HTTP and REST checkpoints",
+          "estimatedMinutes": 90,
+          "officialDocUrl": "https://fullstackopen.com/en/part0",
+          "guidePath": "phase-3/01-http-rest.md",
+          "labPath": "phase-3/01-lab.md",
+          "videos": [
+            {
+              "youtubeId": "kgII-YWo3Zw",
+              "title": "MIT Missing Semester — Shell Tools and Scripting (2020)",
+              "source": "official"
+            }
+          ]
+        },
+        {
+          "id": "p3-frontend",
+          "title": "Frontend craft checkpoints",
+          "estimatedMinutes": 120,
+          "officialDocUrl": "https://fullstackopen.com/en/part1",
+          "guidePath": "phase-3/02-frontend.md",
+          "labPath": "phase-3/02-lab.md",
+          "videos": [
+            {
+              "youtubeId": "3289vhOUdKA",
+              "title": "Cursor AI Tutorial for Beginners",
+              "source": "community"
+            }
+          ]
+        },
+        {
+          "id": "p3-backend",
+          "title": "Backend craft checkpoints",
+          "estimatedMinutes": 120,
+          "officialDocUrl": "https://fullstackopen.com/en/part3",
+          "guidePath": "phase-3/03-backend.md",
+          "labPath": "phase-3/03-lab.md",
+          "videos": [
+            {
+              "youtubeId": "TAKDIvvUdc4",
+              "title": "Complete Claude Code Course In 2 Hours For Developers",
+              "source": "community"
+            }
+          ]
+        },
+        {
+          "id": "p3-testing-ci",
+          "title": "Testing and CI checkpoints",
+          "estimatedMinutes": 90,
+          "officialDocUrl": "https://fullstackopen.com/en/part5",
+          "guidePath": "phase-3/04-testing-ci.md",
+          "labPath": "phase-3/04-lab.md",
+          "videos": [
+            {
+              "youtubeId": "_Ms1Z4xfqv4",
+              "title": "MIT Missing Semester — Metaprogramming (2020)",
+              "source": "official"
+            }
+          ]
+        },
+        {
+          "id": "p3-auth",
+          "title": "Auth checkpoints",
+          "estimatedMinutes": 90,
+          "officialDocUrl": "https://fullstackopen.com/en/part4",
+          "guidePath": "phase-3/05-auth.md",
+          "labPath": "phase-3/05-lab.md",
+          "videos": [
+            {
+              "youtubeId": "yjK7zypCXs4",
+              "title": "Cursor 101",
+              "source": "official"
+            }
+          ]
+        },
+        {
+          "id": "p3-data-modeling",
+          "title": "Data modeling checkpoints",
+          "estimatedMinutes": 90,
+          "officialDocUrl": "https://fullstackopen.com/en/part3",
+          "guidePath": "phase-3/06-data-modeling.md",
+          "labPath": "phase-3/06-lab.md",
+          "videos": [
+            {
+              "youtubeId": "2sjqTHE0zok",
+              "title": "MIT Missing Semester — Version Control (Git) (2020)",
+              "source": "official"
+            }
+          ]
+        },
+        {
+          "id": "p3-odin-path",
+          "title": "Odin Project complementary path",
+          "estimatedMinutes": 60,
+          "officialDocUrl": "https://www.theodinproject.com/",
+          "guidePath": "phase-3/07-odin-path.md",
+          "labPath": "phase-3/07-lab.md",
+          "videos": [
+            {
+              "youtubeId": "5zR1ZE5aqho",
+              "title": "Cursor Crash Course & AI Coding For Beginners",
+              "source": "community"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "phase-4",
+      "index": 4,
+      "title": "System architecture",
+      "summary": "Latency, storage, APIs, consistency, queues, observability, and security. Attributed summaries of system-design-primer plus original drills.",
+      "lessons": [
+        {
+          "id": "p4-how-to-design",
+          "title": "How to approach a design",
+          "estimatedMinutes": 50,
+          "officialDocUrl": "https://github.com/donnemartin/system-design-primer",
+          "guidePath": "phase-4/01-how-to-design.md",
+          "labPath": "phase-4/01-lab.md",
+          "videos": [
+            {
+              "youtubeId": "yjK7zypCXs4",
+              "title": "Cursor 101",
+              "source": "official"
+            }
+          ]
+        },
+        {
+          "id": "p4-latency-storage",
+          "title": "Latency, throughput, storage",
+          "estimatedMinutes": 60,
+          "officialDocUrl": "https://github.com/donnemartin/system-design-primer",
+          "guidePath": "phase-4/02-latency-storage.md",
+          "labPath": "phase-4/02-lab.md",
+          "videos": [
+            {
+              "youtubeId": "kgII-YWo3Zw",
+              "title": "MIT Missing Semester — Shell Tools and Scripting (2020)",
+              "source": "official"
+            }
+          ]
+        },
+        {
+          "id": "p4-apis-consistency",
+          "title": "APIs and consistency",
+          "estimatedMinutes": 60,
+          "officialDocUrl": "https://github.com/donnemartin/system-design-primer",
+          "guidePath": "phase-4/03-apis-consistency.md",
+          "labPath": "phase-4/03-lab.md",
+          "videos": [
+            {
+              "youtubeId": "3289vhOUdKA",
+              "title": "Cursor AI Tutorial for Beginners",
+              "source": "community"
+            }
+          ]
+        },
+        {
+          "id": "p4-queues",
+          "title": "Queues and async work",
+          "estimatedMinutes": 50,
+          "officialDocUrl": "https://github.com/donnemartin/system-design-primer",
+          "guidePath": "phase-4/04-queues.md",
+          "labPath": "phase-4/04-lab.md",
+          "videos": [
+            {
+              "youtubeId": "TAKDIvvUdc4",
+              "title": "Complete Claude Code Course In 2 Hours For Developers",
+              "source": "community"
+            }
+          ]
+        },
+        {
+          "id": "p4-observability-security",
+          "title": "Observability and security",
+          "estimatedMinutes": 50,
+          "officialDocUrl": "https://github.com/donnemartin/system-design-primer",
+          "guidePath": "phase-4/05-observability-security.md",
+          "labPath": "phase-4/05-lab.md",
+          "videos": [
+            {
+              "youtubeId": "2sjqTHE0zok",
+              "title": "MIT Missing Semester — Version Control (Git) (2020)",
+              "source": "official"
+            }
+          ]
+        },
+        {
+          "id": "p4-catalog-order-lab",
+          "title": "Lab: design a catalog and order system",
+          "estimatedMinutes": 90,
+          "officialDocUrl": "https://github.com/donnemartin/system-design-primer",
+          "guidePath": "phase-4/06-catalog-order-lab.md",
+          "labPath": "phase-4/06-lab.md",
+          "videos": [
+            {
+              "youtubeId": "5zR1ZE5aqho",
+              "title": "Cursor Crash Course & AI Coding For Beginners",
+              "source": "community"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "phase-5",
+      "index": 5,
+      "title": "AI manager",
+      "summary": "You are the orchestrator: specs, evals, parallel agents, review checklists, and when not to use a model.",
+      "lessons": [
+        {
+          "id": "p5-orchestrator",
+          "title": "You are the orchestrator",
+          "estimatedMinutes": 40,
+          "officialDocUrl": "https://github.com/NarendraKoya999/system-design-handbook",
+          "guidePath": "phase-5/01-orchestrator.md",
+          "labPath": "phase-5/01-lab.md",
+          "videos": [
+            {
+              "youtubeId": "yjK7zypCXs4",
+              "title": "Cursor 101",
+              "source": "official"
+            }
+          ]
+        },
+        {
+          "id": "p5-specs-evals",
+          "title": "Specs and evals",
+          "estimatedMinutes": 50,
+          "officialDocUrl": "https://www.anthropic.com/engineering/equipping-agents-for-the-real-world-with-agent-skills",
+          "guidePath": "phase-5/02-specs-evals.md",
+          "labPath": "phase-5/02-lab.md",
+          "videos": [
+            {
+              "youtubeId": "TAKDIvvUdc4",
+              "title": "Complete Claude Code Course In 2 Hours For Developers",
+              "source": "community"
+            }
+          ]
+        },
+        {
+          "id": "p5-parallel-agents",
+          "title": "Parallel agents",
+          "estimatedMinutes": 45,
+          "officialDocUrl": "https://cursor.com/docs",
+          "guidePath": "phase-5/03-parallel-agents.md",
+          "labPath": "phase-5/03-lab.md",
+          "videos": [
+            {
+              "youtubeId": "3289vhOUdKA",
+              "title": "Cursor AI Tutorial for Beginners",
+              "source": "community"
+            }
+          ]
+        },
+        {
+          "id": "p5-review-checklists",
+          "title": "Review checklists",
+          "estimatedMinutes": 40,
+          "officialDocUrl": "https://cursor.com/docs",
+          "guidePath": "phase-5/04-review-checklists.md",
+          "labPath": "phase-5/04-lab.md",
+          "videos": [
+            {
+              "youtubeId": "2sjqTHE0zok",
+              "title": "MIT Missing Semester — Version Control (Git) (2020)",
+              "source": "official"
+            }
+          ]
+        },
+        {
+          "id": "p5-when-not-agent",
+          "title": "When not to use an agent",
+          "estimatedMinutes": 30,
+          "officialDocUrl": "https://cursor.com/learn",
+          "guidePath": "phase-5/05-when-not-agent.md",
+          "labPath": "phase-5/05-lab.md",
+          "videos": [
+            {
+              "youtubeId": "5zR1ZE5aqho",
+              "title": "Cursor Crash Course & AI Coding For Beginners",
+              "source": "community"
+            }
+          ]
+        },
+        {
+          "id": "p5-team-of-one-harness",
+          "title": "Production harness for a team of one",
+          "estimatedMinutes": 50,
+          "officialDocUrl": "https://code.claude.com/docs/en/features-overview",
+          "guidePath": "phase-5/06-team-of-one-harness.md",
+          "labPath": "phase-5/06-lab.md",
+          "videos": [
+            {
+              "youtubeId": "TAKDIvvUdc4",
+              "title": "Complete Claude Code Course In 2 Hours For Developers",
+              "source": "community"
+            }
+          ]
+        },
+        {
+          "id": "p5-handbook-llms-rag",
+          "title": "LLMs, RAG, and MCP in production",
+          "estimatedMinutes": 60,
+          "officialDocUrl": "https://github.com/NarendraKoya999/system-design-handbook",
+          "guidePath": "phase-5/07-handbook-llms-rag.md",
+          "labPath": "phase-5/07-lab.md",
+          "videos": [
+            {
+              "youtubeId": "yjK7zypCXs4",
+              "title": "Cursor 101",
+              "source": "official"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "capstone",
+      "index": 6,
+      "title": "Capstone",
+      "summary": "Ship a real system: extend this app using the workflows you studied.",
+      "lessons": [
+        {
+          "id": "cap-ship-this-app",
+          "title": "Ship a real system — extend Architect Track",
+          "estimatedMinutes": 180,
+          "officialDocUrl": "https://github.com/Vanguduza/architect-track",
+          "guidePath": "capstone/01-ship-this-app.md",
+          "labPath": "capstone/01-lab.md",
+          "videos": [
+            {
+              "youtubeId": "yjK7zypCXs4",
+              "title": "Cursor 101",
+              "source": "official"
+            },
+            {
+              "youtubeId": "2sjqTHE0zok",
+              "title": "MIT Missing Semester — Version Control (Git) (2020)",
+              "source": "official"
+            },
+            {
+              "youtubeId": "TAKDIvvUdc4",
+              "title": "Complete Claude Code Course In 2 Hours For Developers",
+              "source": "community"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
